@@ -1,0 +1,6 @@
+server:
+  port: 8081
+zookeeper:
+  url: 10.1.10.196:2181
+  path: /HaService
+  role: leader
