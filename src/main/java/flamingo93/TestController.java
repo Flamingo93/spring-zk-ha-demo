@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @GetMapping("test")
-    public Boolean test() {
+    public Boolean amLeader() {
         System.out.println(LeaderEventListener.amLeader);
         return LeaderEventListener.amLeader;
     }
